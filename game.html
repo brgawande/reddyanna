@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games Reddy Anna</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header style="background-color: black;">
+
+        <a href="#" class="logo">
+            <img src="./images/logo.jpeg" class="logo1" alt="">
+        </a>
+
+        <div style="color: white;" id="menu" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <a class="active" href="/">Home</a>
+            <a href="./contact.html">Contacts</a>
+            <a href="./terms.html">Terms & Conditions</a>
+            <a href="./game.html">Game Addiction</a>
+            <a href="./privacy.html">Privacy Policy</a>
+            <a href="#" style="text-align: left;" class="btn">GET POINTS NOW</a>
+        
+        </nav>
+
+    </header>
+
+
+
+   
+    <section class="prevent" id="prevent">
+
+        <h1 class="heading" style="font-weight: bold; text-align: start;">GAME ADDICTION</h1>
+
+        <h2 style="text-align: start; font-weight: 500; font-size: 19px;">This game maybe addictive, user discretion is advised. Fantasy sports maybe addictive to a certain extent, we advise to
+        avoid playing the games continuously and take regular breaks while you play.</h2>
+        <h2 style="text-align: start; font-weight: 500; font-size: 19px; padding-top: 2rem;">Here are some tips you can apply while playing online fantasy sports-</h2>
+
+        <ul style="padding-top: 2rem;">
+            <li style="font-size: 20px; padding-top: 1rem;">Set time limit for gaming</li>
+            <li style="font-size: 20px; padding-top: 1rem;">Take regular breaks</li>
+            <li style="font-size: 20px; padding-top: 1rem;">Stop playing during work</li>
+            <li style="font-size: 20px; padding-top: 1rem;">Don’t chase losses</li>
+            <li style="font-size: 20px; padding-top: 1rem;">Play with a good frame of mind</li>
+            <li style="font-size: 20px; padding-top: 1rem;">Working Since 2010</li>
+        </ul>
+
+            <h2 style="text-align: start; font-weight: 500; font-size: 19px; padding-top: 2rem;">These points might be helpful for you while playing and might help you in not being addicted to it.</h2>
+
+
+     
+
+    </section>
+
+
+
+
+
+
+
+    <!-- footer section starts  -->
+
+    <div class="footer" style="background-color: black;">
+        <h1 class="headingf" style="font-weight: bold; color: white; text-align: center;">* Involves An Element Of Financial
+            Risk And May Be Addictive. Please Play Responsibly And At Your Own Risk. *This Game
+            is Applicable For Users 18+ Only
+        </h1>
+    
+        <div class="box-container">
+    
+    
+    
+            <div class="box">
+                <h3>Useful Links</h3>
+                <a href="/">Home</a>
+                <a href="/">FAQs</a>
+                <a href="/">Pricing</a>
+                <a href="/">How To Play</a>
+    
+            </div>
+            <div class="box34">
+                <img class="box344" src="./images/logo.jpeg" alt="">
+            </div>
+    
+    
+    
+            <div class="box">
+                <h3 style="text-align: right;">Information</h3>
+                <a style="text-align: right;" href="./contact.html">Contact</a>
+                <a style="text-align: right;" href="./terms.html">Terms & Conditions</a>
+                <a style="text-align: right;" href="./game.html">Game Addiction</a>
+                <a style="text-align: right;" href="./privacy.html">Privacy Policy</a>
+    
+            </div>
+    
+        </div>
+    
+        <h1 class="credit"> Copyright © 2024 All Rights Reserved. </h1>
+    
+    </div>
+
+    <!-- footer section ends -->
+
+    <!-- scroll top  -->
+
+    <a href="#home" class="scroll-top">
+        <img src="images/up.png" alt="">
+    </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+
+    <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+            acc[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                this.parentElement.classList.toggle("active");
+
+                var pannel = this.nextElementSibling;
+
+                if (pannel.style.display === "block") {
+                    pannel.style.display = "none";
+                } else {
+                    pannel.style.display = "block";
+                }
+            });
+        }
+    </script>
+
+
+    <script src="jquery.counterup.min.js"></script>
+
+    <script>
+        jQuery(document).ready(function ($) {
+            $('.counter').counterUp({
+                delay: 10,
+                time: 1000
+            });
+        });
+
+    </script>
+
+
+</body>
+
+</html>
